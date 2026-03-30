@@ -1,0 +1,13 @@
+services:
+  backend:
+    container_name: backend
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true

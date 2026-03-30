@@ -1,0 +1,5074 @@
+[
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "deleteAccount"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "downloadRequest"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "findAllDelUsers"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "updateDownloadRequest"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\account\\account.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "createProfile"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "findAllSellers"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "findAllReport"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\admin\\admin.service.ts",
+        "Method":  "signToken"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "updateAttribute"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "updateAttributeTerm"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "removeAttribute"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\attributes\\attributes.service.ts",
+        "Method":  "removeAttributeTerm"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "signup"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "signin"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "createGuestUser"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "generateGuestEmail"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "mergeGuestCart"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "signToken"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "logout"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "logoutAll"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "forgotPassword"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "resetPassword"
+    },
+    {
+        "File":  "src\\auth\\auth.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "removeImage"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\category\\category.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\coupon\\coupon.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "createAddress"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\address\\address.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "findAllSellerProduct"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "cartHolding"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "getCouponData"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "coupons"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "search"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "switch"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getPopularSearches"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getRelevantSearches"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getRecentSearches"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getAllFilterDetails"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getAllCategories"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getProductByCategoryById"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getMetaByCatgory"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "getProdductBySubCategoryById"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\customer\\live\\live.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "onModuleInit"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "checkout"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "getCouponData"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "payment"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "removeCart"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "orderData"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "GetCancelOrder"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "CancelOrder"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "ReturnOrder"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "ReturnOrderImage"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "calculateCancelOrder"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "Test"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "createPDF"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "sendOrderUpdateEmail"
+    },
+    {
+        "File":  "src\\customer\\order\\order.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "findAllProducts"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "productDetials"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "findAllBySeller"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "findSellerData"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\customer\\product\\product.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "findAllReels"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "findRellsBySlug"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "topTags"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "reelsbyTags"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "addLikeNotification"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\sellerfront\\sellerfront.service.ts",
+        "Method":  "getMetaForSellerFront"
+    },
+    {
+        "File":  "src\\customer\\sellerfront\\sellerfront.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\sellerfront\\sellerfront.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "return"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "findTotal"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "findTop"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "productList"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "recentOrders"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "usersGraph"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "while"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "ordersGraph"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "login"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "getToken"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "createSellerPickupLocationService"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "createShiprocketOrder"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "getorderTrackingDetails"
+    },
+    {
+        "File":  "src\\delivery\\delivery.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "while"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "getAllDynamicPages"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "getDynamicPage"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "updateDynamicPage"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "while"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.service.ts",
+        "Method":  "removeDynamicPage"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "createModule"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "findAllModule"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "findOneModule"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "updateModule"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "removeModule"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\faq\\faq.service.ts",
+        "Method":  "clientFaq"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "FeedbackImage"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "findAllReview"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\feedback\\feedback.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "findAllBySeller"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "findOneBySeller"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\live\\live.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendResetPasswordEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendOTPEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendSellerApprovalEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendSellerRejectEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendOrderPlaceEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendOrderUpdationEmail"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "switch"
+    },
+    {
+        "File":  "src\\mail\\mail.service.ts",
+        "Method":  "sendTicketEmailToCustomer"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "createMenuType"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "findAllMenuType"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "findOneMenuType"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "findOneMenuTypeBySlug"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "updateType"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\menu\\menu.service.ts",
+        "Method":  "removeType"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "notificationPreferenceService"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "getNotificationPreferenceService"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "AddFCMToken"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "sendNotification"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "sendOrderPlaceNotification"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "sendNotificationToAll"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "fetchAllDeviceTokensService"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "return"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "notificationList"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "sendEmailNotificationToAll"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "fetchAllEmail"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "return"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "updateImage"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "sendEmail"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\notification\\notification.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "onModuleInit"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "getStatus"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "switch"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "getAllReturnOrder"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "updateReturnOrder"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "getAllSellerOrderRerturnPercentage"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "findAllSellerOrders"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "findAllSellerOrdersById"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "CancelOrder"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "returnConfirmation"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "CancelOrderCharges"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "calculateCancelOrder"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\orders\\orders.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "sendOtp"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "verifyOtp"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\otp\\otp.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\prisma\\prisma.service.ts",
+        "Method":  "onModuleInit"
+    },
+    {
+        "File":  "src\\prisma\\prisma.service.ts",
+        "Method":  "onModuleDestroy"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "updateStatus"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "updateImage"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "updateCoverImage"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "removeImage"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\product\\product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "extractHashtags"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "while"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "findAllBySeller"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "findOneBySeller"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "findReels"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "updateStatus"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "removeReel"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\reels\\reels.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seed\\seed.service.ts",
+        "Method":  "seed"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "updateSocialLinks"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "updateStoreFront"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "findAllCategories"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "findAllAttributes"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "createSellerPickupLocationService"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "getPickUpLocationService"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "createShipRocketOrderService"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller\\seller.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "BigInt"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "updateImage"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "updateCoverImage"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "removeImage"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\settings\\settings.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\settings\\settings.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\settings\\settings.service.ts",
+        "Method":  "paymentSettings"
+    },
+    {
+        "File":  "src\\settings\\settings.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\settings\\settings.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "setImmediate"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "razorpayPaymentFailedOrderCheck"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "sendInAppNotificationToSellers"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "deleteExpiredTokens"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\task\\task.service.ts",
+        "Method":  "deleteOldLogs"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "edit"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "changePassword"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "checkUser"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\user\\user.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "create"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "sellerWallet"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "sellerWalletTransactions"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "sellerWalletWithdrawalRequest"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "Number"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "sellerWithdrawalRequests"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "adminWallet"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "withdrawalRequestList"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "exportWithdrawalRequest"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "approveWithdrawalRequest"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\wallet\\wallet.service.ts",
+        "Method":  "remove"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "razorpayWebhook"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "removeCart"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "orderData"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "compute"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "updateAdminWallet"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "updateSellerWallet"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "for"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "if"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "findAll"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "findOne"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "update"
+    },
+    {
+        "File":  "src\\webhook\\webhook.service.ts",
+        "Method":  "remove"
+    }
+]

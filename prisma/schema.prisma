@@ -1,0 +1,1093 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider        = "prisma-client-js"
+  output          = "../generated/prisma"
+  previewFeatures = ["fullTextSearchPostgres"]
+  // binaryTargets   = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ApprovalStatus {
+  id               BigInt             @id @default(autoincrement()) @db.BigInt
+  title            String // pending, approved, rejected
+  created_at       DateTime           @default(now())
+  updated_at       DateTime           @updatedAt()
+  users            User[]
+  Product          Product[]
+  Reels            Reels[]
+  Live             Live[]
+  customerFeedback CustomerFeedback[]
+  UserDataRequest  UserDataRequest[]
+
+  @@index([id])
+  @@map("tbl_approval_status")
+}
+
+model AccountStatus {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  title      String // active, suspended, deactivated, reactivated
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+  users      User[]
+
+  @@index([id])
+  @@map("tbl_account_status")
+}
+
+model Status {
+  id                   BigInt                 @id @default(autoincrement()) @db.BigInt
+  title                String // active, inactive
+  created_at           DateTime               @default(now())
+  updated_at           DateTime               @updatedAt()
+  ProductAttribute     ProductAttribute[]
+  ProductAttributeTerm ProductAttributeTerm[]
+  ProductCategory      ProductCategory[]
+  Product              Product[]
+  coupon               coupon[]
+  faq                  FAQ[]
+  faqModule            FAQModule[]
+  menu                 Menu[]
+
+  @@index([id])
+  @@map("tbl_status")
+}
+
+model PayoutStatus {
+  id                BigInt              @id @default(autoincrement()) @db.BigInt
+  title             String // paid,on-hold, scheduled 
+  created_at        DateTime            @default(now())
+  updated_at        DateTime            @updatedAt()
+  withdrawalRequest WithdrawalRequest[]
+
+  @@index([id])
+  @@map("tbl_payout_status")
+}
+
+model OrderStatus {
+  id          BigInt        @id @default(autoincrement()) @db.BigInt
+  title       String
+  orderItems  OrderItems[]
+  orderCancel OrderCancel[]
+  created_at  DateTime      @default(now())
+  updated_at  DateTime      @updatedAt()
+
+  @@map("tbl_order_status")
+}
+
+model Role {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  title      String // ADMIN  OPERATOR  SELLER  BUYER
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+  users      User[]
+
+  @@index([id])
+  @@map("tbl_roles")
+}
+
+model User {
+  id                     BigInt                   @id @default(autoincrement()) @db.BigInt
+  first_name             String?
+  last_name              String?
+  email                  String                   @unique
+  phone_no               String?
+  password               String?
+  image                  String?
+  provider               AuthType
+  provider_id            String?
+  fcm_token              String?
+  reset_token            String?                  @unique
+  reset_token_exp        DateTime?
+  is_temporary           Boolean                  @default(false)
+  is_deleted             Boolean                  @default(false)
+  role_id                BigInt
+  role                   Role                     @relation(fields: [role_id], references: [id])
+  approval_status_id     BigInt                   @default(1)
+  approval_status        ApprovalStatus           @relation(fields: [approval_status_id], references: [id])
+  account_status_id      BigInt                   @default(1)
+  account_status         AccountStatus            @relation(fields: [account_status_id], references: [id])
+  created_at             DateTime                 @default(now())
+  updated_at             DateTime                 @updatedAt()
+  sellerProfile          SellerProfile?
+  userFCMToken           UserFCMToken[]
+  userToken              UserToken[]
+  Product                Product[]
+  SellerKYC              SellerKYC?
+  SocialLinks            SocialLinks?
+  sellerStoreFront       SellerStoreFront?
+  wallet                 Wallet?
+  WithdrawalRequest      WithdrawalRequest[]
+  inAppNotifications     InAppNotifications[]
+  NotificationPreference NotificationPreference[]
+  Reels                  Reels[]
+  Live                   Live[]
+  likedReels             LikedReels[]
+  wishList               WishList[]
+  Cart                   Cart[]
+  address                Address[]
+  cartHoldingItems       CartHoldingItems?
+  Order                  Order[]
+  recentSearch           RecentSearch[]
+  orderItems             OrderItems[]
+  orderCancel            OrderCancel[]
+  customerFeedback       CustomerFeedback[]
+  pickupLocation         PickupLocation[]
+  supportTicket          SupportTicket[]
+  userDataRequest        UserDataRequest[]
+  notifyMe               NotifyMe[]
+
+  @@index([first_name, last_name, email, phone_no, role_id, approval_status_id, account_status_id])
+  @@map("tbl_users")
+}
+
+model UserToken {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  token      String   @unique
+  user_id    BigInt
+  user       User     @relation(fields: [user_id], references: [id])
+  user_agent String?
+  ip_address String?
+  is_revoked Boolean  @default(false)
+  created_at DateTime @default(now())
+  expires_at DateTime
+
+  @@index([id])
+  @@map("tbl_user_tokens")
+}
+
+model UserFCMToken {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  user_id    BigInt
+  user       User     @relation(fields: [user_id], references: [id])
+  token      String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@map("tbl_user_fcm_tokens")
+}
+
+model UserDataRequest {
+  id                 BigInt         @id @default(autoincrement()) @db.BigInt
+  user_id            BigInt
+  user               User           @relation(fields: [user_id], references: [id])
+  user_email         String
+  approval_status_id BigInt         @default(1)
+  approval_status    ApprovalStatus @relation(fields: [approval_status_id], references: [id])
+  created_at         DateTime       @default(now())
+
+  @@index([id])
+  @@map("tbl_user_data_request")
+}
+
+model Product {
+  id                    BigInt                 @id @default(autoincrement()) @db.BigInt
+  name                  String?                @db.Text()
+  slug                  String                 @unique @db.VarChar(150)
+  seller_id             BigInt
+  seller                User                   @relation(fields: [seller_id], references: [id])
+  permalink             String?                @db.VarChar(255)
+  status_id             BigInt                 @default(1)
+  status                Status                 @relation(fields: [status_id], references: [id])
+  approval_status_id    BigInt                 @default(1)
+  approval_status       ApprovalStatus         @relation(fields: [approval_status_id], references: [id])
+  description           String?                @db.Text()
+  sku                   String?
+  mrp                   Decimal                @default(0) @db.Decimal(10, 2)
+  sales_price           Decimal?               @default(0) @db.Decimal(10, 2)
+  shipping              Decimal?               @default(0) @db.Decimal(10, 2)
+  tax                   Int
+  // discount_amount              Decimal?                  @default(0) @db.Decimal(10, 2)
+  new_collection        Boolean?               @default(true)
+  out_of_stock          Boolean?               @default(false)
+  stock_quantity        Int?
+  average_rating        String?
+  images                ProductImage[]
+  categories            ProductCategory[]
+  attributes            ProductAttribute[]
+  productToProductTerms ProductToProductTerm[]
+  wishList              WishList[]
+  Cart                  Cart[]
+  order_items           OrderItems[]
+  customerFeedback      CustomerFeedback[]
+  productbox            productbox[]
+  clickCount            ProductClickCount[]
+  notifyMe              NotifyMe[]
+  created_at            DateTime               @default(now())
+  updated_at            DateTime               @updatedAt()
+
+  @@index([id, sku, name, slug, description, approval_status_id, status_id])
+  @@map("tbl_products")
+}
+
+model SellerProfile {
+  id                 BigInt   @id @default(autoincrement()) @db.BigInt
+  slug               String?  @unique
+  user_id            BigInt   @unique
+  user               User     @relation(fields: [user_id], references: [id])
+  mobile_number      String?
+  gender             String?
+  address1           String
+  landmark           String?
+  city               String
+  state              String
+  country            String?
+  pincode            String
+  business_name      String
+  business_tag       String?
+  business_logo      String?
+  bank_business_name String?
+  bank_name          String
+  account_number     String
+  branch_name        String
+  ifsc_code          String
+  fake_seller        Boolean  @default(false)
+  created_at         DateTime @default(now())
+  updated_at         DateTime @updatedAt()
+
+  @@index([gender, city, state, pincode, mobile_number])
+  @@map("tbl_seller_profile ")
+}
+
+model SellerKYC {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  user_id    BigInt   @unique
+  user       User     @relation(fields: [user_id], references: [id])
+  id_proof   String?
+  GSTIN      String
+  PAN        String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("tbl_seller_kyc ")
+}
+
+model SellerAggrement {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  title      String
+  desc       String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("tbl_seller_aggrement ")
+}
+
+model SellerStoreFront {
+  id               BigInt   @id @default(autoincrement()) @db.BigInt
+  user_id          BigInt   @unique
+  user             User     @relation(fields: [user_id], references: [id])
+  primary_colour   String
+  secondary_colour String
+  font             String
+  link             String   @unique
+  created_at       DateTime @default(now())
+  updated_at       DateTime @updatedAt()
+
+  @@map("tbl_seller_store_front")
+}
+
+model Reels {
+  id                 BigInt              @id @default(autoincrement()) @db.BigInt
+  slug               String?             @unique
+  seller_id          BigInt
+  seller             User                @relation(fields: [seller_id], references: [id])
+  reel               String?
+  thumbnail          String?
+  desc               String?
+  views              BigInt              @default(0)
+  likes              BigInt              @default(0)
+  product_ids        Int[]
+  source             Source?
+  facebookLink       String?
+  youtubeLink        String?
+  approval_status_id BigInt              @default(1)
+  approval_status    ApprovalStatus      @relation(fields: [approval_status_id], references: [id])
+  likedReels         LikedReels[]
+  tags               ReelTags[]
+  productClickCount  ProductClickCount[]
+  created_at         DateTime            @default(now())
+  updated_at         DateTime            @updatedAt()
+
+  @@index([seller_id, approval_status_id])
+  @@map("tbl_reels ")
+}
+
+model ProductClickCount {
+  id         BigInt  @id @default(autoincrement()) @db.BigInt
+  reel_id    BigInt
+  reel       Reels   @relation(fields: [reel_id], references: [id])
+  product_id BigInt
+  product    Product @relation(fields: [product_id], references: [id])
+  count      BigInt
+
+  @@unique([reel_id, product_id])
+  @@map("tbl_reel_product_click_count")
+}
+
+model ReelTags {
+  id      BigInt  @id @default(autoincrement()) @db.BigInt
+  reel_id BigInt
+  reel    Reels   @relation(fields: [reel_id], references: [id])
+  tag_id  BigInt
+  tag     HashTag @relation(fields: [tag_id], references: [id])
+
+  @@unique([reel_id, tag_id])
+  @@map("tbl_tags")
+}
+
+model HashTag {
+  id         BigInt     @id @default(autoincrement()) @db.BigInt
+  name       String     @unique
+  tags       ReelTags[]
+  created_at DateTime   @default(now())
+
+  @@map("tbl_hashtags")
+}
+
+model LikedReels {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  user_id    BigInt
+  user       User     @relation(fields: [user_id], references: [id])
+  reel_id    BigInt
+  reel       Reels    @relation(fields: [reel_id], references: [id])
+  created_at DateTime @updatedAt()
+
+  @@unique([user_id, reel_id])
+  @@map("tbl_liked_reels ")
+}
+
+model Live {
+  id                 BigInt         @id @default(autoincrement()) @db.BigInt
+  slug               String?        @unique
+  seller_id          BigInt
+  seller             User           @relation(fields: [seller_id], references: [id])
+  isLive             Boolean        @default(false)
+  views              BigInt?        @default(0)
+  source             Source?
+  facebookLink       String?
+  youtubeLink        String?
+  roomId             String?
+  streamId           String?
+  hostId             String?
+  hostname           String?
+  product_ids        Int[]
+  approval_status_id BigInt         @default(1)
+  approval_status    ApprovalStatus @relation(fields: [approval_status_id], references: [id])
+  created_at         DateTime       @default(now())
+  updated_at         DateTime       @updatedAt()
+
+  @@index([seller_id, approval_status_id])
+  @@map("tbl_live ")
+}
+
+model SocialLinks {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  seller_id  BigInt   @unique
+  user       User     @relation(fields: [seller_id], references: [id])
+  metadata   Json
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("tbl_social_links")
+}
+
+model ProductAttribute {
+  id                    BigInt                 @id @default(autoincrement()) @db.BigInt
+  name                  String
+  slug                  String                 @unique
+  status_id             BigInt                 @default(1)
+  status                Status                 @relation(fields: [status_id], references: [id])
+  attributeTerms        ProductAttributeTerm[]
+  productToProductTerms ProductToProductTerm[]
+  products              Product[]
+  created_at            DateTime               @default(now())
+  updated_at            DateTime               @updatedAt()
+
+  @@index([name, slug])
+  @@map("tbl_product_attributes")
+}
+
+model ProductAttributeTerm {
+  id                    BigInt                 @id @default(autoincrement()) @db.BigInt
+  name                  String
+  slug                  String                 @unique
+  attribute_id          BigInt
+  attributes            ProductAttribute       @relation(fields: [attribute_id], references: [id], onDelete: Cascade)
+  status_id             BigInt                 @default(1)
+  status                Status                 @relation(fields: [status_id], references: [id])
+  term_rank             Int?
+  productToProductTerms ProductToProductTerm[]
+  created_at            DateTime               @default(now())
+  updated_at            DateTime               @updatedAt()
+  CartAttributeTerm     CartAttributeTerm[]
+
+  @@index([name, slug])
+  @@map("tbl_product_attribute_terms")
+}
+
+model ProductToProductTerm {
+  id                BigInt               @id @default(autoincrement())
+  product           Product              @relation(fields: [product_id], references: [id], onDelete: Cascade)
+  product_id        BigInt
+  attribute_id      BigInt
+  attribute         ProductAttribute     @relation(fields: [attribute_id], references: [id])
+  attribute_term_id BigInt
+  attributeTerms    ProductAttributeTerm @relation(fields: [attribute_term_id], references: [id])
+  created_at        DateTime             @default(now())
+  updated_at        DateTime             @updatedAt()
+
+  @@map("tbl_product_to_product_terms")
+}
+
+model ProductCategory {
+  id              BigInt            @id @default(autoincrement()) @db.BigInt
+  name            String
+  slug            String            @unique
+  parent_category BigInt?
+  parent_relation ProductCategory?  @relation("parent", fields: [parent_category], references: [id])
+  sub_categories  ProductCategory[] @relation("parent")
+  description     String?
+  show_home_page  Boolean?          @default(false)
+  image           String?
+  status_id       BigInt            @default(1)
+  status          Status            @relation(fields: [status_id], references: [id])
+  count           Int               @default(0)
+  display_rank    Int               @default(1)
+  products        Product[]
+  created_at      DateTime          @default(now())
+  updated_at      DateTime          @updatedAt()
+
+  @@index([name, slug, parent_category])
+  @@map("tbl_product_categories")
+}
+
+model ProductImage {
+  id           BigInt   @id @default(autoincrement()) @db.BigInt
+  name         String?
+  src          String
+  alt          String?
+  product      Product  @relation(fields: [product_id], references: [id])
+  product_id   BigInt
+  main_image   Boolean  @default(false)
+  display_rank Int      @default(1)
+  created_at   DateTime @default(now())
+  updated_at   DateTime @updatedAt()
+
+  @@map("tbl_product_images")
+}
+
+model WishList {
+  id         BigInt       @id @default(autoincrement()) @db.BigInt
+  user_id    BigInt
+  user       User         @relation(fields: [user_id], references: [id])
+  product_id BigInt
+  product    Product      @relation(fields: [product_id], references: [id])
+  list_type  WishListType
+  created_at DateTime     @default(now())
+  updated_at DateTime     @updatedAt
+
+  @@index([id, product_id])
+  @@map("tbl_user_wish_lists")
+}
+
+model AdminSettings {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  title      String?
+  metadata   Json
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("tbl_admin_settings")
+}
+
+model BlockedKeywords {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  keyword    String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@index([keyword])
+  @@map("tbl_blocked_keywords")
+}
+
+model coupon {
+  id              BigInt       @id @default(autoincrement()) @db.BigInt
+  code            String       @unique
+  desc            String?      @db.Text
+  type            DiscountType
+  amount          Int
+  min_order_value Decimal?     @default(0) @db.Decimal(10, 2)
+  status_id       BigInt       @default(1)
+  status          Status       @relation(fields: [status_id], references: [id])
+  created_at      DateTime     @default(now())
+  expire_at       DateTime?
+  updated_at      DateTime     @updatedAt()
+
+  @@index([id, code, type])
+  @@map("tbl_coupons")
+}
+
+model OTP {
+  id             BigInt    @id @default(autoincrement()) @db.BigInt
+  credential     String?
+  OTP            Int
+  limit          Int       @default(0)
+  restrictedTime DateTime?
+  created_at     DateTime  @default(now())
+  expire_at      DateTime  @default(now())
+  updated_at     DateTime  @updatedAt()
+
+  @@index([id, credential, OTP])
+  @@map("tbl_otp")
+}
+
+model NotificationPreferenceCategory {
+  id                     BigInt                           @id @default(autoincrement()) @db.BigInt
+  name                   String
+  key                    String                           @unique
+  checked                Boolean                          @default(true)
+  parent                 BigInt?
+  parent_relation        NotificationPreferenceCategory?  @relation("parent", fields: [parent], references: [id])
+  sub_categories         NotificationPreferenceCategory[] @relation("parent")
+  NotificationPreference NotificationPreference[]
+
+  @@map("tbl_notification_preference_categories")
+}
+
+model NotificationPreference {
+  id                     BigInt                         @id @default(autoincrement()) @db.BigInt
+  user_id                BigInt
+  user                   User                           @relation(fields: [user_id], references: [id])
+  preference_category_id BigInt
+  preference_category    NotificationPreferenceCategory @relation(fields: [preference_category_id], references: [id])
+  created_at             DateTime                       @default(now())
+  updated_at             DateTime                       @updatedAt
+
+  @@map("tbl_notification_preference")
+}
+
+model InAppNotifications {
+  id                BigInt              @id @default(autoincrement()) @db.BigInt
+  user_id           BigInt
+  user              User                @relation(fields: [user_id], references: [id])
+  type              String
+  title             String
+  body              String
+  image             String?
+  is_read           Boolean             @default(false)
+  metadata          Json?
+  created_at        DateTime            @default(now())
+  notificationActor NotificationActor[]
+
+  @@index([user_id, type, title, body, is_read])
+  @@map("tbl_in_app_notifications")
+}
+
+model PushNotification {
+  id         BigInt                  @id @default(autoincrement()) @db.BigInt
+  title      String
+  body       String
+  url        String?
+  type       String?
+  images     PushNotificationImage[]
+  // notification_type PushNotificationType
+  created_at DateTime                @default(now())
+  updated_at DateTime                @updatedAt
+
+  @@index([id])
+  @@map("tbl_push_notifications")
+}
+
+model PushNotificationImage {
+  id               BigInt           @id @default(autoincrement()) @db.BigInt
+  src              String
+  pushNotification PushNotification @relation(fields: [notification_id], references: [id], onDelete: Cascade)
+  notification_id  BigInt
+  created_at       DateTime         @default(now())
+
+  @@index([id])
+  @@map("tbl_push_notification_images")
+}
+
+model NotificationActor {
+  id              BigInt   @id @default(autoincrement())
+  notification_id BigInt
+  user_id         BigInt
+  created_at      DateTime @default(now())
+
+  notification InAppNotifications @relation(fields: [notification_id], references: [id])
+
+  @@unique([notification_id, user_id])
+  @@map("tbl_notification_actors")
+}
+
+model adminActivityLog {
+  id          BigInt   @id @default(autoincrement()) @db.BigInt
+  description String   @db.Text()
+  table       String?
+  action      String
+  ip          String?
+  userAgent   String?
+  created_at  DateTime @default(now())
+
+  @@index([id])
+  @@map("tbl_admin_activity_log")
+}
+
+model Cart {
+  id             BigInt              @id @default(autoincrement()) @db.BigInt
+  quantity       Int
+  product_id     BigInt
+  product        Product             @relation(fields: [product_id], references: [id])
+  customer_id    BigInt
+  user           User                @relation(fields: [customer_id], references: [id])
+  cartAttributes CartAttributeTerm[]
+  created_at     DateTime            @default(now())
+
+  @@index([id, customer_id])
+  @@map("tbl_cart")
+}
+
+model CartAttributeTerm {
+  id                BigInt               @id @default(autoincrement()) @db.BigInt
+  cart_id           BigInt
+  attribute_term_id BigInt
+  cart              Cart                 @relation(fields: [cart_id], references: [id])
+  attributeTerm     ProductAttributeTerm @relation(fields: [attribute_term_id], references: [id])
+
+  @@unique([cart_id, attribute_term_id])
+  @@map("tbl_cart_attribute_term")
+}
+
+model CartHoldingItems {
+  id                      BigInt   @id @default(autoincrement()) @db.BigInt
+  items                   String   @db.Text()
+  unavailable_product_ids BigInt[]
+  user_id                 BigInt?  @unique
+  user                    User?    @relation(fields: [user_id], references: [id])
+  created_at              DateTime @default(now())
+  expired_at              DateTime @default(now())
+
+  @@index([id])
+  @@map("tbl_cart_holding_items")
+}
+
+model Order {
+  id                 BigInt        @id @default(autoincrement()) @db.BigInt
+  order_id           String?       @unique
+  customer_id        BigInt
+  customer           User          @relation(fields: [customer_id], references: [id])
+  rzp_transaction_id String?
+  rzp_order_id       String
+  amount             Decimal       @db.Decimal(16, 2)
+  currency           String
+  payment_status     String?
+  order_items        OrderItems[]
+  order_details      OrderDetails?
+  orderCancel        OrderCancel[]
+  order_date         DateTime      @default(now())
+
+  @@index([id, order_id])
+  @@map("tbl_orders")
+}
+
+model OrderItems {
+  id                      BigInt                    @id @default(autoincrement()) @db.BigInt
+  product_id              BigInt?
+  product                 Product?                  @relation(fields: [product_id], references: [id])
+  item_metadata           String
+  item_quantity           Int
+  total_item_amount       Decimal                   @db.Decimal(10, 2)
+  order_id                BigInt
+  order                   Order                     @relation(fields: [order_id], references: [id])
+  order_status_id         BigInt                    @db.BigInt
+  order_status            OrderStatus               @relation(fields: [order_status_id], references: [id])
+  seller_id               BigInt
+  seller                  User                      @relation(fields: [seller_id], references: [id])
+  updated_at              DateTime                  @default(now())
+  OrderCancel             OrderCancel?
+  sellerWalletTransaction SellerWalletTransaction[]
+  shiprocketOrder         shiprocketOrder[]
+
+  @@index([id, order_id])
+  @@map("tbl_order_items")
+}
+
+model OrderDetails {
+  id              BigInt  @id @default(autoincrement()) @db.BigInt
+  order_id        BigInt  @unique
+  order           Order   @relation(fields: [order_id], references: [id])
+  order_itm_qty   Int?
+  total_amount    Decimal @default(0) @db.Decimal(10, 2)
+  discount_amount Decimal @db.Decimal(10, 2)
+  total_tax       Decimal @default(0) @db.Decimal(10, 2)
+  order_amount    Decimal @db.Decimal(10, 2)
+  total_shipping  Decimal @default(0) @db.Decimal(10, 2)
+  coupon_metadata String?
+  shipping        String
+  billing         String
+
+  @@index([order_id])
+  @@map("tbl_order_details")
+}
+
+model OrderCancel {
+  id               BigInt             @id @default(autoincrement()) @db.BigInt
+  customer_id      BigInt
+  customer         User               @relation(fields: [customer_id], references: [id])
+  order_id         BigInt
+  order            Order              @relation(fields: [order_id], references: [id])
+  order_item_id    BigInt             @unique @db.BigInt
+  order_item       OrderItems         @relation(fields: [order_item_id], references: [id])
+  amount           Decimal            @db.Decimal(16, 2)
+  payment_id       String
+  refund_id        String
+  status_id        BigInt             @default(6) @db.BigInt
+  order_status     OrderStatus        @relation(fields: [status_id], references: [id])
+  refund_status    String?
+  note             String?
+  created_at       DateTime           @default(now())
+  orderCancelImage OrderCancelImage[]
+  adminNote        String?
+  isReturnAccepted Boolean            @default(false)
+  isRefunded       Boolean            @default(false)
+
+  @@index([id, customer_id, status_id, refund_status])
+  @@map("tbl_order_cancel")
+}
+
+model OrderCancelImage {
+  id         BigInt      @id @default(autoincrement()) @db.BigInt
+  name       String?
+  src        String
+  alt        String?
+  oderCancel OrderCancel @relation(fields: [cancel_id], references: [id])
+  cancel_id  BigInt
+  created_at DateTime    @default(now())
+  updated_at DateTime    @updatedAt()
+
+  @@map("tbl_order_cancel_images")
+}
+
+model Wallet {
+  id                      BigInt                    @id @default(autoincrement()) @db.BigInt
+  user_id                 BigInt                    @unique @db.BigInt
+  user                    User                      @relation(fields: [user_id], references: [id])
+  total_amount            Decimal                   @db.Decimal(12, 2)
+  sellerWalletTransaction SellerWalletTransaction[]
+
+  @@index([id])
+  @@map("tbl_wallet")
+}
+
+model SellerWalletTransaction {
+  id                          BigInt             @id @default(autoincrement()) @db.BigInt
+  wallet_id                   BigInt             @db.BigInt
+  wallet                      Wallet             @relation(fields: [wallet_id], references: [id])
+  order_item_id               BigInt             @db.BigInt
+  order_item                  OrderItems         @relation(fields: [order_item_id], references: [id])
+  amount_earned               Decimal            @db.Decimal(12, 2)
+  commision_charge            String?
+  commision_charges_amount    Decimal            @default(0) @db.Decimal(12, 2)
+  cancellation_charge         String?
+  cancellation_charges_amount Decimal            @default(0) @db.Decimal(12, 2)
+  withdrawn_amount            Decimal            @default(0) @db.Decimal(12, 2)
+  withdrawalRequest_id        BigInt?            @db.BigInt
+  WithdrawalRequest           WithdrawalRequest? @relation(fields: [withdrawalRequest_id], references: [id])
+  created_at                  DateTime           @default(now())
+
+  @@map("tbl_seller_wallet_transactions")
+}
+
+model WithdrawalRequest {
+  id               BigInt                    @id @default(autoincrement()) @db.BigInt
+  seller_id        BigInt                    @db.BigInt
+  seller           User                      @relation(fields: [seller_id], references: [id])
+  amount           Decimal                   @db.Decimal(12, 2)
+  payout_status_id BigInt                    @default(1)
+  payout_status    PayoutStatus              @relation(fields: [payout_status_id], references: [id])
+  created_at       DateTime                  @default(now())
+  paid_at          DateTime?
+  transactions     SellerWalletTransaction[]
+
+  @@map("tbl_seller_wallet_withdrawal_requests")
+}
+
+model Address {
+  id           BigInt      @id @default(autoincrement()) @db.BigInt
+  user_id      BigInt
+  user         User        @relation(fields: [user_id], references: [id])
+  address_type AddressType
+  metadata     String      @db.Text()
+  default      Boolean     @default(false)
+  created_at   DateTime    @default(now())
+  updated_at   DateTime    @updatedAt
+
+  @@index([user_id])
+  @@map("tbl_addresses")
+}
+
+model FAQ {
+  id         BigInt    @id @default(autoincrement()) @db.BigInt
+  question   String
+  answer     String    @db.Text()
+  rank       BigInt    @default(autoincrement()) @db.BigInt
+  module_id  BigInt    @default(1)
+  module     FAQModule @relation(fields: [module_id], references: [id])
+  status_id  BigInt    @default(1)
+  status     Status    @relation(fields: [status_id], references: [id])
+  created_at DateTime  @default(now())
+
+  @@index([id, question, answer, rank, status_id])
+  @@map("tbl_faqs")
+}
+
+model FAQModule {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  name       String   @db.Text()
+  desc       String?  @db.Text()
+  rank       BigInt   @default(autoincrement()) @db.BigInt
+  status_id  BigInt   @default(1)
+  status     Status   @relation(fields: [status_id], references: [id])
+  created_at DateTime @default(now())
+  FAQ        FAQ[]
+
+  @@index([id, name, rank, status_id])
+  @@map("tbl_faq_modules")
+}
+
+model CustomerFeedback {
+  id                 BigInt                  @id @default(autoincrement()) @db.BigInt
+  user_id            BigInt
+  user               User                    @relation(fields: [user_id], references: [id])
+  ratings            Float
+  description        String?                 @db.Text()
+  product_id         BigInt
+  product            Product                 @relation(fields: [product_id], references: [id])
+  approval_status_id BigInt                  @default(1)
+  approval_status    ApprovalStatus          @relation(fields: [approval_status_id], references: [id])
+  anonymous          Boolean                 @default(false)
+  userReviewImage    CustomerFeedbackImage[]
+  created_at         DateTime                @default(now())
+  updated_at         DateTime                @updatedAt
+
+  @@index([user_id, ratings, description])
+  @@map("tbl_customer_feedback")
+}
+
+model CustomerFeedbackImage {
+  id          BigInt           @id @default(autoincrement()) @db.BigInt
+  src         String
+  name        String
+  alt         String?
+  feedback_id BigInt
+  feedback    CustomerFeedback @relation(fields: [feedback_id], references: [id])
+  created_at  DateTime         @default(now())
+  updated_at  DateTime         @updatedAt
+
+  @@index([id])
+  @@map("tbl_customer_feedback_images")
+}
+
+model NotifyMe {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  email      String
+  user_id    BigInt?
+  user       User?    @relation(fields: [user_id], references: [id])
+  product_id BigInt
+  product    Product  @relation(fields: [product_id], references: [id])
+  reply_sent Boolean  @default(false)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([email, reply_sent])
+  @@map("tbl_nofity_me")
+}
+
+model SearchQuery {
+  id             BigInt         @id @default(autoincrement()) @db.BigInt
+  query          String         @unique
+  count          Int            @default(1)
+  created_at     DateTime       @default(now())
+  updated_at     DateTime       @updatedAt
+  image          String?
+  recentSearches RecentSearch[]
+
+  @@index([query])
+  @@map("tbl_search_queries")
+}
+
+model RecentSearch {
+  id             BigInt      @id @default(autoincrement()) @db.BigInt
+  user_id        BigInt
+  searchQuery_id BigInt
+  searched_at    DateTime    @default(now())
+  user           User        @relation(fields: [user_id], references: [id])
+  searchQuery    SearchQuery @relation(fields: [searchQuery_id], references: [id])
+  image          String?
+
+  @@index([user_id, searched_at])
+  @@map("tbl_recent_searches")
+}
+
+model ShiprocketToken {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  token      String
+  created_at DateTime @default(now())
+  expire_at  BigInt
+
+  @@map("tbl_shiprocket_token")
+}
+
+model PickupLocation {
+  id              BigInt            @id @default(autoincrement()) @db.BigInt
+  sellerId        BigInt
+  seller          User              @relation(fields: [sellerId], references: [id])
+  address         String
+  address_2       String?
+  city            String
+  state           String
+  pin_code        String
+  country         String            @default("India")
+  isDefault       Boolean           @default(false)
+  shiprocketCode  BigInt?
+  pickup_location String            @unique
+  createdAt       DateTime          @default(now())
+  shiprocketOrder shiprocketOrder[]
+
+  @@map("tbl_seller_pickup_location")
+}
+
+model shiprocketOrder {
+  id                 BigInt         @id @default(autoincrement()) @db.BigInt
+  shiprocketOrderId  BigInt
+  pickup_location_id BigInt
+  pickup_location    PickupLocation @relation(fields: [pickup_location_id], references: [id])
+  orderItemsId       BigInt
+  orderItems         OrderItems     @relation(fields: [orderItemsId], references: [id])
+  shipmentId         BigInt
+  awb_number         String
+  createdAt          DateTime       @default(now())
+
+  @@map("tbl_shiprocket_order")
+}
+
+model productbox {
+  id        BigInt  @id @default(autoincrement()) @db.BigInt
+  length    BigInt
+  breadth   BigInt
+  height    BigInt
+  weight    BigInt
+  productId BigInt
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@map("tbl_product_box")
+}
+
+model SupportTicket {
+  id          BigInt   @id @default(autoincrement()) @db.BigInt
+  ticket_id   String
+  email       String?
+  user_id     BigInt?
+  user        User?    @relation(fields: [user_id], references: [id])
+  title       String
+  body        String
+  attechments String[]
+  created_at  DateTime @default(now())
+
+  @@map("tbl_support_ticket")
+}
+
+model DynamicPage {
+  id          BigInt   @id @default(autoincrement()) @db.BigInt
+  title       String   @db.VarChar(255)
+  slug        String   @unique @db.VarChar(255)
+  description String?  @db.Text
+  isActive    Boolean  @default(true)
+  created_at  DateTime @default(now())
+  updated_at  DateTime @updatedAt()
+
+  @@unique([id]) // ensures id is unique (though already unique since it's @id)
+  @@map("tbl_dynamic_pages")
+}
+
+model MenuType {
+  id               BigInt     @id @default(autoincrement()) @db.BigInt
+  name             String
+  slug             String     @unique @db.VarChar(255)
+  parent_menu_type BigInt?
+  parent_relation  MenuType?  @relation("parent", fields: [parent_menu_type], references: [id])
+  sub_menu_types   MenuType[] @relation("parent")
+  menu             Menu[]
+  created_at       DateTime   @default(now())
+  updated_at       DateTime   @updatedAt()
+
+  @@index([id])
+  @@map("tbl_menu_types")
+}
+
+model Menu {
+  id             BigInt   @id @default(autoincrement()) @db.BigInt
+  menu_type_id   BigInt
+  menu_type      MenuType @relation(fields: [menu_type_id], references: [id])
+  menu_item_id   BigInt
+  menu_item_type String
+  status_id      BigInt   @default(1)
+  status         Status   @relation(fields: [status_id], references: [id])
+  path           String
+  display_rank   Int?
+  created_at     DateTime @default(now())
+  updated_at     DateTime @updatedAt()
+
+  @@index([id, menu_type_id, menu_item_id, path])
+  @@map("tbl_menu")
+}
+
+model MetaData {
+  id         BigInt   @id @default(autoincrement()) @db.BigInt
+  table_id   BigInt
+  table_name String
+  key        String
+  value      String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@index([id, table_id, table_name, key])
+  @@map("tbl_meta_data")
+}
+
+enum AuthType {
+  GOOGLE
+  APPLE
+  EMAIL
+}
+
+enum Source {
+  INAPP
+  YOUTUBE
+  FACEBOOK
+}
+
+enum DiscountType {
+  percentage
+  fixed
+}
+
+enum AddressType {
+  BILLING
+  SHIPPING
+}
+
+enum WishListType {
+  WISHLIST
+  SAVEFORLATER
+  RECENTLYVIEWEDPRODUCTS
+}

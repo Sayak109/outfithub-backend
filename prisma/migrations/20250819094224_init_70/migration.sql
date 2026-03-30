@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "tbl_order_items" ADD COLUMN     "updated_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;

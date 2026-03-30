@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Invoice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.4;
+            color: #111;
+            background: #f8fafc;
+            margin: 0;
+            padding: 0
+        }
+
+        .sheet {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 16mm 14mm;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, .08)
+        }
+
+        .logo {
+            width: 50%;
+            height: 50%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px
+        }
+
+        .muted {
+            color: #555
+        }
+
+        .two-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 20px;
+        }
+
+        .left,
+        .right {
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .order-details {
+            margin-top: 10px;
+            /* single gap */
+            line-height: 1.6;
+        }
+
+        .box {
+            padding: 10px;
+            border-radius: 6px font-size: 13px;
+            line-height: 1.6;
+        }
+
+
+        h4 {
+            margin: 0 0 5px 0;
+            font-size: 12px;
+            text-transform: uppercase
+        }
+
+        .row {
+            display: flex;
+            justify-content: end;
+            text-align: right;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 6px;
+            font-size: 12px;
+            vertical-align: top
+        }
+
+        th {
+            background: #f3f4f6
+        }
+
+        td.right,
+        th.right {
+            text-align: right
+        }
+
+        td.center,
+        th.center {
+            text-align: center
+        }
+
+        .totals {
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden
+        }
+
+        .totals td {
+            border: none;
+            padding: 8px
+        }
+
+        .totals tr+tr td {
+            border-top: 1px solid #ddd
+        }
+
+        .amount-words {
+            margin-top: 10px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            background: #fafafa
+        }
+
+        .sign {
+            text-align: right;
+            margin-top: 40px
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 11px;
+            color: #555
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="sheet">
+            <header>
+                <div class="logo">
+                    <a href="https://yumdut.com/"
+                        target="_blank">
+                        <img
+                            src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/rzm0xmf4/icg/mxv/ks6/logo-b.png"
+                            alt="YumDut Logo"
+                            style="max-width: 200px; border: 0;">
+                    </a>
+                </div>
+                <div class="title">
+                    Order Invoice / Bill of Supply <br>
+                    <span class="muted">(Original for Recipient)</span>
+                </div>
+                <div></div>
+            </header>
+
+            <div class="two-grid">
+                <div class="left">
+                    <div class="box">
+                        <h4>SOLD BY</h4>
+                        <strong>{{seller.name}}</strong><br>
+                        {{seller.address}},<br>
+                        {{seller.csp}}<br>
+                        PAN: {{seller.pan}}<br>
+                        GSTIN: {{seller.gstin}}
+                    </div>
+                    <div style="margin-top:20px;"></div>
+
+                    <div class="box">
+                        <div><strong>Order Id:</strong> {{order.number}}</div>
+                        <div><strong>Order Date:</strong> {{order.date}}</div>
+                        <div><strong>Invoice No:</strong>
+                            {{invoice.number}}</div>
+                        <div><strong>Invoice Date:</strong>
+                            {{invoice.date}}</div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="box">
+                        <h4>BILLING ADDRESS</h4>
+                        {{billing.name}} | {{billing.mobile_no}}<br>
+                        {{billing.address}}<br>
+                        {{billing.city}}, {{billing.state}},<br>
+                        {{billing.pincode}}<br>
+                    </div>
+
+                    <div style="margin-top:30px;"></div>
+                    <div class="box">
+                        <h4>SHIPPING ADDRESS</h4>
+                        {{shipping.name}} | {{shipping.mobile_no}}<br>
+                        {{shipping.address}}<br>
+                        {{shipping.city}}, {{shipping.state}},<br>
+                        {{shipping.pincode}}<br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="center">Sl.</th>
+                            <th>Description</th>
+                            <th class="right">Unit Price</th>
+                            <th class="center">Qty</th>
+                            <th class="right">Net Amount</th>
+                            <th class="center">Tax Rate</th>
+                            <th class="right">Tax Amt</th>
+                            <th class="right">Shipping</th>
+                            <th class="right">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each items}}
+                        <tr>
+                            <td class="center">1</td>
+                            <td>{{description}}<br>SKU: {{sku}}<br>+
+                                Shipping</td>
+                            <td class="right">{{unitPrice}}</td>
+                            <td class="center">{{qty}}</td>
+                            <td class="right">{{netAmount}}</td>
+                            <td class="center">{{taxRate}}</td>
+                            <td class="right">{{taxAmount}}</td>
+                            <td class="right">{{shipping}}</td>
+                            <td class="right">{{total}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="totals">
+                <table>
+                    <tr>
+                        <td style="width:70%"><strong>Total</strong></td>
+                        <td
+                            class="right"><strong>{{summary.total}}</strong></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="amount-words right">
+                <td>
+                    Amount in Words: {{summary.amountInWords}}
+                </td>
+            </div>
+        </div>
+    </body>
+
+</html>

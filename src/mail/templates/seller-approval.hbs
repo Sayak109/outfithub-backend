@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to {{platformName}}!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #059669 0%, #047857 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .greeting {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #1e293b;
+        }
+        .message {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #475569;
+        }
+        .highlight-box {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .highlight-box h3 {
+            margin: 0 0 10px 0;
+            color: #166534;
+            font-size: 18px;
+        }
+        .highlight-box p {
+            margin: 5px 0;
+            color: #166534;
+            font-size: 14px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #059669;
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 20px 10px 20px 0;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #047857;
+        }
+        .cta-button.secondary {
+            background-color: transparent;
+            color: #059669;
+            border: 2px solid #059669;
+        }
+        .cta-button.secondary:hover {
+            background-color: #059669;
+            color: white;
+        }
+        .steps {
+            margin: 30px 0;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .step-number {
+            background-color: #059669;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .step-content h4 {
+            margin: 0 0 8px 0;
+            color: #1e293b;
+            font-size: 16px;
+        }
+        .step-content p {
+            margin: 0;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .info-box {
+            background-color: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .info-box h4 {
+            margin: 0 0 10px 0;
+            color: #92400e;
+            font-size: 16px;
+        }
+        .info-box ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #92400e;
+        }
+        .info-box li {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .footer {
+            background-color: #f8fafc;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+        }
+        .footer h3 {
+            margin: 0 0 15px 0;
+            color: #1e293b;
+            font-size: 18px;
+        }
+        .footer p {
+            margin: 0 0 10px 0;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .footer .copyright {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        .support-link {
+            color: #059669;
+            text-decoration: none;
+        }
+        .support-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to {{platformName}}!</h1>
+            <p>Your seller account has been approved</p>
+        </div>
+
+        <div class="content">
+            <div class="greeting">
+                Dear {{sellerName}},
+            </div>
+
+            <div class="message">
+                Congratulations! We're excited to inform you that your seller account has been <strong>approved</strong> and you can now start selling on {{platformName}}.
+            </div>
+
+            {{#if businessName}}
+            <div class="highlight-box">
+                <h3>Your Store Details</h3>
+                <p><strong>Store Name:</strong> {{businessName}}</p>
+                <p><strong>Email:</strong> {{sellerEmail}}</p>
+                <p><strong>Status:</strong> <span style="color: #059669; font-weight: bold;">Approved ✓</span></p>
+            </div>
+            {{/if}}
+
+            <h3 style="color: #1e293b; margin: 30px 0 20px 0; font-size: 20px; border-bottom: 2px solid #059669; padding-bottom: 8px;">
+                Next Steps to Get Started
+            </h3>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Access Your Dashboard</h4>
+                        <p>Log in to your seller dashboard to complete your profile and store setup if not completed yet.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Upload Your Products</h4>
+                        <p>Start adding your products with high-quality images, detailed descriptions and other informations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h4>📋 Important Reminders</h4>
+                <ul>
+                    <li>Complete your store profile within 7 days to maintain active status</li>
+                    <li>Follow our seller guidelines to ensure smooth operations</li>
+                    <li>Upload at least 5 products to start appearing in search results</li>
+                </ul>
+            </div>
+
+            <div class="message">
+                We're here to support your success every step of the way. If you have any questions or need assistance, don't hesitate to reach out to our support team.
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Welcome to the {{platformName}}</h3>
+            <p>
+                Need help? Contact us at 
+                <a href="mailto:{{supportEmail}}" class="support-link">{{supportEmail}}</a>
+            </p>
+            
+            <div class="copyright">
+                <p>© {{currentYear}} {{platformName}}. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

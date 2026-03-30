@@ -1,0 +1,2288 @@
+[
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "POST",
+        "Route":  "delete",
+        "FullPath":  "account/delete",
+        "Handler":  "deleteAccount",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "POST",
+        "Route":  "download-request",
+        "FullPath":  "account/download-request",
+        "Handler":  "downloadRequest",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "PUT",
+        "Route":  "deleted-users",
+        "FullPath":  "account/deleted-users",
+        "Handler":  "findAllDelUsers",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "PUT",
+        "Route":  "download-request",
+        "FullPath":  "account/download-request",
+        "Handler":  "findAll",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "download-request/:id",
+        "FullPath":  "account/download-request/:id",
+        "Handler":  "updateDownloadRequest",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "account/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\account\\account.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "account/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "POST",
+        "Route":  "user",
+        "FullPath":  "admin/user",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "PUT",
+        "Route":  "user-profile/:id",
+        "FullPath":  "admin/user-profile/:id",
+        "Handler":  "FileFieldsInterceptor",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "user/:id",
+        "FullPath":  "admin/user/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "PUT",
+        "Route":  "users",
+        "FullPath":  "admin/users",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "GET",
+        "Route":  "sellers",
+        "FullPath":  "admin/sellers",
+        "Handler":  "findAllSellers",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "GET",
+        "Route":  "user/:id",
+        "FullPath":  "admin/user/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "user/:id",
+        "FullPath":  "admin/user/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin\\admin.controller.ts",
+        "Method":  "PUT",
+        "Route":  "log-report",
+        "FullPath":  "admin/log-report",
+        "Handler":  "getAllReport",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "admin-settings",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "admin-settings",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "admin-settings/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "admin-settings/:id",
+        "Handler":  "update",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\admin-settings\\admin-settings.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "admin-settings/:id",
+        "Handler":  "remove",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "attributes",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "attributes/:id",
+        "Handler":  "updateAttribute",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "term/:id",
+        "FullPath":  "attributes/term/:id",
+        "Handler":  "updateAttributeTerm",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "attributes",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "PUT",
+        "Route":  ":id",
+        "FullPath":  "attributes/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "attributes/:id",
+        "Handler":  "removeAttribute",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\attributes\\attributes.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "/term/:id",
+        "FullPath":  "attributes//term/:id",
+        "Handler":  "removeAttributeTerm",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "signup",
+        "FullPath":  "auth/signup",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "signin",
+        "FullPath":  "auth/signin",
+        "Handler":  "signin",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "guest",
+        "FullPath":  "auth/guest",
+        "Handler":  "createGuest",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "logout",
+        "FullPath":  "auth/logout",
+        "Handler":  "logout",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "logout-all",
+        "FullPath":  "auth/logout-all",
+        "Handler":  "logoutAll",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "forgot-password",
+        "FullPath":  "auth/forgot-password",
+        "Handler":  "forgotPassword",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\auth\\auth.controller.ts",
+        "Method":  "POST",
+        "Route":  "reset-password",
+        "FullPath":  "auth/reset-password",
+        "Handler":  "resetPassword",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "blocked-keywords",
+        "Handler":  "blockKeywords",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "blocked-keywords",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "blocked-keywords/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "blocked-keywords/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\blocked-keywords\\blocked-keywords.controller.ts",
+        "Method":  "POST",
+        "Route":  "delete",
+        "FullPath":  "blocked-keywords/delete",
+        "Handler":  "remove",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "category",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "category",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "PUT",
+        "Route":  ":id",
+        "FullPath":  "category/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "category/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "image/:id",
+        "FullPath":  "category/image/:id",
+        "Handler":  "removeImage",
+        "Guards":  "",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\category\\category.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "category/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\coupon\\coupon.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "coupon",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\coupon\\coupon.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "coupon",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\coupon\\coupon.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "coupon/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\coupon\\coupon.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "coupon/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\coupon\\coupon.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "coupon/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\address\\address.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "customer/address",
+        "Handler":  "createBillingAddress",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\address\\address.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "customer/address",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\address\\address.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "customer/address/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\address\\address.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "customer/address/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\address\\address.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "customer/address/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.controller.ts",
+        "Method":  "PUT",
+        "Route":  "allsellers",
+        "FullPath":  "allsellers",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\allseller\\allseller.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller/products/:id",
+        "FullPath":  "seller/products/:id",
+        "Handler":  "findAllSellerProduct",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "POST",
+        "Route":  "cart",
+        "FullPath":  "customer/cart",
+        "Handler":  "create",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "POST",
+        "Route":  "cart/holding-items",
+        "FullPath":  "customer/cart/holding-items",
+        "Handler":  "cartHolding",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "PUT",
+        "Route":  "cart",
+        "FullPath":  "customer/cart",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "GET",
+        "Route":  "coupons",
+        "FullPath":  "customer/coupons",
+        "Handler":  "coupons",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "cart/:id",
+        "FullPath":  "customer/cart/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\cart\\cart.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "cart/:id",
+        "FullPath":  "customer/cart/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "PUT",
+        "Route":  "search",
+        "FullPath":  "search",
+        "Handler":  "search",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "/search/popular-searches",
+        "FullPath":  "/search/popular-searches",
+        "Handler":  "getPopularSearches",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "/search/relevant-search",
+        "FullPath":  "/search/relevant-search",
+        "Handler":  "getRelevantSearches",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "/search/recent-searches",
+        "FullPath":  "/search/recent-searches",
+        "Handler":  "getRecentSearches",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "filters",
+        "FullPath":  "filters",
+        "Handler":  "getAllFilters",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "categories",
+        "FullPath":  "categories",
+        "Handler":  "getAllCategories",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "categories/:id",
+        "FullPath":  "categories/:id",
+        "Handler":  "getCategoryById",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "GET",
+        "Route":  "category/:slug",
+        "FullPath":  "category/:slug",
+        "Handler":  "getMetaByCatgory",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\explore\\buyer-explore.controller.ts",
+        "Method":  "PUT",
+        "Route":  "subcategory/:id",
+        "FullPath":  "subcategory/:id",
+        "Handler":  "getSubCategoryById",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\live\\live.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "customer/live",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\live\\live.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "customer/live",
+        "Handler":  "findAllReels",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\live\\live.controller.ts",
+        "Method":  "GET",
+        "Route":  ":slug",
+        "FullPath":  "customer/live/:slug",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\live\\live.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "customer/live/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\live\\live.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "customer/live/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "checkout",
+        "FullPath":  "customer/checkout",
+        "Handler":  "checkout",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "order",
+        "FullPath":  "customer/order",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "payment/:id",
+        "FullPath":  "customer/payment/:id",
+        "Handler":  "payment",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "GET",
+        "Route":  "order/:id",
+        "FullPath":  "customer/order/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "PUT",
+        "Route":  "order",
+        "FullPath":  "customer/order",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "GET",
+        "Route":  "cancel-order/:id",
+        "FullPath":  "customer/cancel-order/:id",
+        "Handler":  "GetCancelOrder",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "cancel-order/:id",
+        "FullPath":  "customer/cancel-order/:id",
+        "Handler":  "CancelOrder",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "return-order/:id",
+        "FullPath":  "customer/return-order/:id",
+        "Handler":  "ReturnOrder",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "test-encryption",
+        "FullPath":  "customer/test-encryption",
+        "Handler":  "Test",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "GET",
+        "Route":  "order/pdf/:id",
+        "FullPath":  "customer/order/pdf/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\order\\order.controller.ts",
+        "Method":  "POST",
+        "Route":  "order/send/:id",
+        "FullPath":  "customer/order/send/:id",
+        "Handler":  "sendOrderUpdateEmail",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "customer",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "PUT",
+        "Route":  "products",
+        "FullPath":  "customer/products",
+        "Handler":  "findAllProducts",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "GET",
+        "Route":  "product-details/:slug",
+        "FullPath":  "customer/product-details/:slug",
+        "Handler":  "productDetials",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "PUT",
+        "Route":  "store-front/:link",
+        "FullPath":  "customer/store-front/:link",
+        "Handler":  "find",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "GET",
+        "Route":  "products/:slug",
+        "FullPath":  "customer/products/:slug",
+        "Handler":  "getSellerDetails",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\product\\product.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "customer/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "POST",
+        "Route":  "product-click-count/:id",
+        "FullPath":  "customer/reels/product-click-count/:id",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "GET",
+        "Route":  "tags",
+        "FullPath":  "customer/reels/tags",
+        "Handler":  "topTags",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "PUT",
+        "Route":  "by-tags/:tag",
+        "FullPath":  "customer/reels/by-tags/:tag",
+        "Handler":  "reelsbyTags",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "customer/reels",
+        "Handler":  "findAllReels",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "GET",
+        "Route":  ":slug",
+        "FullPath":  "customer/reels/:slug",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "customer/reels/:id",
+        "Handler":  "update",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\reels\\reels.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "customer/reels/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\sellerfront\\sellerfront.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller-meta/:storelink",
+        "FullPath":  "seller-meta/:storelink",
+        "Handler":  "getMetaForSellerFront",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "wishlist",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator, Role.Seller, Role.Buyer"
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "wishlist",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "wishlist/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\customer\\wishlist\\wishlist.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "wishlist/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "dashboard",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "GET",
+        "Route":  "total",
+        "FullPath":  "dashboard/total",
+        "Handler":  "findTotal",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "GET",
+        "Route":  "top",
+        "FullPath":  "dashboard/top",
+        "Handler":  "findTop",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "GET",
+        "Route":  "product-list",
+        "FullPath":  "dashboard/product-list",
+        "Handler":  "productList",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "GET",
+        "Route":  "recent-orders",
+        "FullPath":  "dashboard/recent-orders",
+        "Handler":  "recentOrders",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "PUT",
+        "Route":  "users-graph",
+        "FullPath":  "dashboard/users-graph",
+        "Handler":  "usersGraph",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "GET",
+        "Route":  "orders-graph",
+        "FullPath":  "dashboard/orders-graph",
+        "Handler":  "ordersGraph",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "dashboard/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dashboard\\dashboard.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "dashboard/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\delivery\\delivery.controller.ts",
+        "Method":  "POST",
+        "Route":  "shiprocket-order",
+        "FullPath":  "delivery/shiprocket-order",
+        "Handler":  "createShiprocketOrder",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\delivery\\delivery.controller.ts",
+        "Method":  "GET",
+        "Route":  "order-tracking/:orderItemsId",
+        "FullPath":  "delivery/order-tracking/:orderItemsId",
+        "Handler":  "getorderTrackingDetails",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "page",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "page",
+        "Handler":  "getAllDynamicPages",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.controller.ts",
+        "Method":  "GET",
+        "Route":  ":slug",
+        "FullPath":  "page/:slug",
+        "Handler":  "getDynamicPage",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "page/:id",
+        "Handler":  "updateDynamicPage",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\dynamic-pages\\dynamic-pages.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "page/:id",
+        "Handler":  "removeDynamicPage",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "GET",
+        "Route":  "client",
+        "FullPath":  "faq/client",
+        "Handler":  "clientFaq",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "POST",
+        "Route":  "module",
+        "FullPath":  "faq/module",
+        "Handler":  "createModule",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "PUT",
+        "Route":  "module",
+        "FullPath":  "faq/module",
+        "Handler":  "findAllModule",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "GET",
+        "Route":  "module/:id",
+        "FullPath":  "faq/module/:id",
+        "Handler":  "findOneModule",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "module/:id",
+        "FullPath":  "faq/module/:id",
+        "Handler":  "updateModule",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "module/:id",
+        "FullPath":  "faq/module/:id",
+        "Handler":  "removeModule",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "faq",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "PUT",
+        "Route":  ":id",
+        "FullPath":  "faq/:id",
+        "Handler":  "findAll",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "faq/:id",
+        "Handler":  "findOne",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "faq/:id",
+        "Handler":  "update",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\faq\\faq.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "faq/:id",
+        "Handler":  "remove",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "feedback",
+        "Handler":  "create",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "PUT",
+        "Route":  "product/:id",
+        "FullPath":  "feedback/product/:id",
+        "Handler":  "findAllReview",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "feedback",
+        "Handler":  "findAll",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "feedback/:id",
+        "Handler":  "GetOne",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "feedback/:id",
+        "Handler":  "update",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\feedback\\feedback.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "feedback/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "live",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, AccountStatusGuard, ApprovalStatusGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "live",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "live/:id",
+        "Handler":  "findOneBySeller",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "live/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "live/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller",
+        "FullPath":  "live/seller",
+        "Handler":  "findAllReels",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\live\\live.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller/:id",
+        "FullPath":  "live/seller/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "menu",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "menu",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "menu/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "menu/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "POST",
+        "Route":  "type",
+        "FullPath":  "menu/type",
+        "Handler":  "createMenuType",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "PUT",
+        "Route":  "type",
+        "FullPath":  "menu/type",
+        "Handler":  "findAllMenuType",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "GET",
+        "Route":  "type/:id",
+        "FullPath":  "menu/type/:id",
+        "Handler":  "findOneMenuType",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "GET",
+        "Route":  "type-by-slug/:slug",
+        "FullPath":  "menu/type-by-slug/:slug",
+        "Handler":  "findOneMenuTypeBySlug",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "type/:id",
+        "FullPath":  "menu/type/:id",
+        "Handler":  "updateType",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\menu\\menu.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "type/:id",
+        "FullPath":  "menu/type/:id",
+        "Handler":  "removeType",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "preference",
+        "FullPath":  "notification/preference",
+        "Handler":  "notificationPreference",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "GET",
+        "Route":  "preference",
+        "FullPath":  "notification/preference",
+        "Handler":  "getnotificationPreference",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "GET",
+        "Route":  "in-app",
+        "FullPath":  "notification/in-app",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "add-fcm",
+        "FullPath":  "notification/add-fcm",
+        "Handler":  "AddFCMToken",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "send",
+        "FullPath":  "notification/send",
+        "Handler":  "sendNotification",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "order-place/:id",
+        "FullPath":  "notification/order-place/:id",
+        "Handler":  "sendOrderPlaceNotification",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "push/send-all",
+        "FullPath":  "notification/push/send-all",
+        "Handler":  "sendNotificationToAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "POST",
+        "Route":  "email/send-all",
+        "FullPath":  "notification/email/send-all",
+        "Handler":  "sendEmailNotificationToAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "PUT",
+        "Route":  "list",
+        "FullPath":  "notification/list",
+        "Handler":  "notificationList",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "notification/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\notification\\notification.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "notification/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "orders",
+        "Handler":  "create",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "GET",
+        "Route":  "status",
+        "FullPath":  "orders/status",
+        "Handler":  "GetStatus",
+        "Guards":  "JwtGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "orders/:id",
+        "Handler":  "findOne",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "orders",
+        "Handler":  "findAll",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "orders/:id",
+        "Handler":  "update",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "get-return-orders",
+        "FullPath":  "orders/get-return-orders",
+        "Handler":  "getAllReturnOrders",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator, Role.Seller"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "update-return-orders",
+        "FullPath":  "orders/update-return-orders",
+        "Handler":  "updateReturnOrderAdmin",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "get-seller-return-percentage",
+        "FullPath":  "orders/get-seller-return-percentage",
+        "Handler":  "getAllReturnPercentageSellerWise",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller",
+        "FullPath":  "orders/seller",
+        "Handler":  "findAllSellerOrders",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller/:id",
+        "FullPath":  "orders/seller/:id",
+        "Handler":  "findAllSellerOrdersById",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller/cancel/:id",
+        "FullPath":  "orders/seller/cancel/:id",
+        "Handler":  "CancelOrderCharges",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "POST",
+        "Route":  "seller/cancel/:id",
+        "FullPath":  "orders/seller/cancel/:id",
+        "Handler":  "SellerOrderCancel",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\orders\\orders.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller/return/:id",
+        "FullPath":  "orders/seller/return/:id",
+        "Handler":  "SellerOrderRetrurn",
+        "Guards":  "RolesGuard, AccountStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\otp\\otp.controller.ts",
+        "Method":  "POST",
+        "Route":  "send",
+        "FullPath":  "otp/send",
+        "Handler":  "sendOtp",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\otp\\otp.controller.ts",
+        "Method":  "POST",
+        "Route":  "verify",
+        "FullPath":  "otp/verify",
+        "Handler":  "verifyOtp",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\otp\\otp.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "otp/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\otp\\otp.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "otp/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "product",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "product",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "product/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "product/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "status/:id",
+        "FullPath":  "product/status/:id",
+        "Handler":  "updateStatus",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "image/:id",
+        "FullPath":  "product/image/:id",
+        "Handler":  "updateImages",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "image/:id",
+        "FullPath":  "product/image/:id",
+        "Handler":  "removeImage",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\product\\product.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "product/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "reels",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "reels",
+        "Handler":  "findAllBySeller",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "reels/:id",
+        "Handler":  "findOneBySeller",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "reels/:id",
+        "Handler":  "FileFieldsInterceptor",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "reels/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "GET",
+        "Route":  "stream/:id/:fileName",
+        "FullPath":  "reels/stream/:id/:fileName",
+        "Handler":  "streamReel",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller",
+        "FullPath":  "reels/seller",
+        "Handler":  "findAllReels",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller/:id",
+        "FullPath":  "reels/seller/:id",
+        "Handler":  "findReels",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "seller/:id",
+        "FullPath":  "reels/seller/:id",
+        "Handler":  "updateStatus",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin, Role.Operator"
+    },
+    {
+        "File":  "src\\reels\\reels.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "seller/:id",
+        "FullPath":  "reels/seller/:id",
+        "Handler":  "removeReel",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "POST",
+        "Route":  "profile",
+        "FullPath":  "seller/profile",
+        "Handler":  "FileFieldsInterceptor",
+        "Guards":  "JwtGuard, RolesGuard, AccountStatusGuard, ApprovalStatusGuard",
+        "Roles":  "Role.Seller, Role.Buyer"
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "GET",
+        "Route":  "profile",
+        "FullPath":  "seller/profile",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "profile",
+        "FullPath":  "seller/profile",
+        "Handler":  "FileFieldsInterceptor",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "POST",
+        "Route":  "social-links",
+        "FullPath":  "seller/social-links",
+        "Handler":  "updateSocialLinks",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "POST",
+        "Route":  "store-front",
+        "FullPath":  "seller/store-front",
+        "Handler":  "updateStoreFront",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "GET",
+        "Route":  "categories",
+        "FullPath":  "seller/categories",
+        "Handler":  "findCategory",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "GET",
+        "Route":  "attributes",
+        "FullPath":  "seller/attributes",
+        "Handler":  "findAttributes",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "POST",
+        "Route":  "create-pickup-address",
+        "FullPath":  "seller/create-pickup-address",
+        "Handler":  "createShippingAddress",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller\\seller.controller.ts",
+        "Method":  "PUT",
+        "Route":  "pickup-address",
+        "FullPath":  "seller/pickup-address",
+        "Handler":  "findPickupAddress",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "seller-aggrement",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "seller-aggrement",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "seller-aggrement/:id",
+        "Handler":  "findOne",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "seller-aggrement/:id",
+        "Handler":  "update",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\seller-aggrement\\seller-aggrement.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "seller-aggrement/:id",
+        "Handler":  "remove",
+        "Guards":  "JwtGuard, RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "seller-product",
+        "Handler":  "create",
+        "Guards":  "JwtGuard, RolesGuard, AccountStatusGuard, ApprovalStatusGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "PUT",
+        "Route":  "",
+        "FullPath":  "seller-product",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "seller-product/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "seller-product/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "image/:id",
+        "FullPath":  "seller-product/image/:id",
+        "Handler":  "updateImages",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "DELETE",
+        "Route":  "image/:id",
+        "FullPath":  "seller-product/image/:id",
+        "Handler":  "removeImage",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\seller-product\\seller-product.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "seller-product/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\settings\\settings.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "settings",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\settings\\settings.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "settings",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\settings\\settings.controller.ts",
+        "Method":  "GET",
+        "Route":  "payment",
+        "FullPath":  "settings/payment",
+        "Handler":  "paymentSettings",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\settings\\settings.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "settings/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\settings\\settings.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "settings/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "support-ticket",
+        "Handler":  "create",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "support-ticket",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "support-ticket/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "support-ticket/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\support-ticket\\support-ticket.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "support-ticket/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\user\\user.controller.ts",
+        "Method":  "GET",
+        "Route":  "me",
+        "FullPath":  "users/me",
+        "Handler":  "getMe",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\user\\user.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "profile",
+        "FullPath":  "users/profile",
+        "Handler":  "editUser",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\user\\user.controller.ts",
+        "Method":  "POST",
+        "Route":  "change-password",
+        "FullPath":  "users/change-password",
+        "Handler":  "changePasswod",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\user\\user.controller.ts",
+        "Method":  "PUT",
+        "Route":  "check-user",
+        "FullPath":  "users/check-user",
+        "Handler":  "checkUser",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "POST",
+        "Route":  "",
+        "FullPath":  "wallet",
+        "Handler":  "create",
+        "Guards":  "JwtGuard",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "GET",
+        "Route":  "seller",
+        "FullPath":  "wallet/seller",
+        "Handler":  "sellerWallet",
+        "Guards":  "JwtGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller/transactions",
+        "FullPath":  "wallet/seller/transactions",
+        "Handler":  "sellerWalletTransactions",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "POST",
+        "Route":  "withdraw-request",
+        "FullPath":  "wallet/withdraw-request",
+        "Handler":  "sellerWalletWithdrawalRequest",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PUT",
+        "Route":  "seller/withdraw-request",
+        "FullPath":  "wallet/seller/withdraw-request",
+        "Handler":  "sellerWithdrawalRequests",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Seller"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PUT",
+        "Route":  "admin",
+        "FullPath":  "wallet/admin",
+        "Handler":  "adminWallet",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PUT",
+        "Route":  "withdraw-request",
+        "FullPath":  "wallet/withdraw-request",
+        "Handler":  "withdrawalRequestList",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "GET",
+        "Route":  "request/export",
+        "FullPath":  "wallet/request/export",
+        "Handler":  "exportWithdrawalRequest",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PATCH",
+        "Route":  "withdraw-request/:id",
+        "FullPath":  "wallet/withdraw-request/:id",
+        "Handler":  "approveWithdrawalRequest",
+        "Guards":  "RolesGuard",
+        "Roles":  "Role.Admin"
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "wallet/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "wallet/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\wallet\\wallet.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "wallet/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\webhook\\webhook.controller.ts",
+        "Method":  "POST",
+        "Route":  "razorpay",
+        "FullPath":  "webhook/razorpay",
+        "Handler":  "razorpayWebhook",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\webhook\\webhook.controller.ts",
+        "Method":  "GET",
+        "Route":  "",
+        "FullPath":  "webhook",
+        "Handler":  "findAll",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\webhook\\webhook.controller.ts",
+        "Method":  "GET",
+        "Route":  ":id",
+        "FullPath":  "webhook/:id",
+        "Handler":  "findOne",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\webhook\\webhook.controller.ts",
+        "Method":  "PATCH",
+        "Route":  ":id",
+        "FullPath":  "webhook/:id",
+        "Handler":  "update",
+        "Guards":  "",
+        "Roles":  ""
+    },
+    {
+        "File":  "src\\webhook\\webhook.controller.ts",
+        "Method":  "DELETE",
+        "Route":  ":id",
+        "FullPath":  "webhook/:id",
+        "Handler":  "remove",
+        "Guards":  "",
+        "Roles":  ""
+    }
+]

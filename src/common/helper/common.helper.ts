@@ -1,0 +1,122 @@
+import slugify from 'slugify';
+import * as CryptoJS from 'crypto-js';
+import { PrismaService } from '../../prisma/prisma.service';
+
+const prisma = new PrismaService();
+/**
+ * Generates a unique slug for a given base string and model field
+ * @param base The base string to convert into a slug
+ * @param model The Prisma model to check against
+ * @param field The field name to ensure uniqueness (usually 'slug')
+ * @returns A unique slug string
+ */
+export const generateSlug = async (
+    base: string,
+    model: any,
+    field: string
+): Promise<string> => {
+    if (!base) {
+        throw new Error('Base string for slug generation is empty.');
+    }
+
+    try {
+        let slug = slugify(base, { lower: true, strict: true });
+        let uniqueSlug = slug;
+        let counter = 1;
+
+        while (await model.findFirst({ where: { [field]: uniqueSlug } })) {
+            uniqueSlug = `${slug}-${counter}`;
+            counter++;
+        }
+
+        return uniqueSlug;
+    } catch (error) {
+        console.error('Error generating slug:', error);
+        throw new Error('Failed to generate a unique slug.');
+    }
+};
+
+export const generateOTP = () => {
+    let otp = '';
+
+    otp += Math.floor(Math.random() * 9) + 1;
+    for (let i = 1; i < 6; i++) {
+        otp += Math.floor(Math.random() * 10);
+    }
+    return process.env.OTP_SMS_SEND === "true" ? otp : '111111';
+};
+
+
+export const decryptData = (data: any) => {
+    const secretKey = process.env.PUBLIC_ENCRYPTION_KEY;
+    if (!secretKey) {
+        console.error("Decryption key is missing!");
+        return null;
+    }
+
+    try {
+        const bytes = CryptoJS.AES.decrypt(data, secretKey);
+        const decryptedData = bytes.toString(CryptoJS.enc.Utf8);
+        return JSON.parse(decryptedData);
+    } catch (error) {
+        console.error("Decryption failed:", error);
+        return null;
+    }
+};
+
+export const encryptData = (data: any) => {
+    const secretKey = process.env.PUBLIC_ENCRYPTION_KEY;
+
+    if (!secretKey) {
+        console.error("Encryption key not found");
+        return null;
+    }
+
+    try {
+        const result = JSON.stringify(data, (key, value) =>
+            typeof value === 'bigint' ? value.toString() : value,
+        );
+
+        return CryptoJS.AES.encrypt(result, secretKey).toString();
+    } catch (error) {
+        console.error("Encryption failed:", error);
+        return null;
+    }
+};
+
+
+export async function createNotification(
+    userId: bigint,
+    type: string,
+    title: string,
+    body: string,
+    metadata: any = {},
+    image?: string
+) {
+    return await prisma.inAppNotifications.create({
+        data: {
+            user_id: userId,
+            type,
+            title,
+            body,
+            metadata,
+            image,
+        },
+    });
+}
+
+export async function createMetaData(
+    table_id: bigint,
+    table_name: string,
+    key: string,
+    value: string,
+) {
+    return await prisma.metaData.create({
+        data: {
+            table_id: table_id,
+            table_name: table_name,
+            key: key,
+            value: value
+        }
+    });
+}

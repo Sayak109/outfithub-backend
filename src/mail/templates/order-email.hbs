@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Order Placed</title>
+    </head>
+    <body
+        style="margin:0; padding:0; background:#f5f5f5; font-family:Arial, sans-serif; font-size:14px; color:#333;">
+
+        <table width="100%" cellpadding="0" cellspacing="0"
+            style="background:#f5f5f5; padding:20px 0;">
+            <tr>
+                <td align="center">
+
+                    <table width="600" cellpadding="0" cellspacing="0"
+                        style="background:#ffffff; border-radius:8px; overflow:hidden;">
+
+                        <tr>
+                            <td align="center"
+                                style="padding:20px; border-bottom:1px solid #eee;">
+                                <a href="https://yumdut.com/"
+                                    target="_blank">
+                                    <img
+                                        src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/rzm0xmf4/icg/mxv/ks6/logo-b.png"
+                                        alt="YumDut Logo"
+                                        style="max-width: 200px; border: 0;">
+                                </a>
+                                <h2
+                                    style="margin:0; font-size:20px; color:#111;">ORDER
+                                    PLACED</h2>
+                                <p
+                                    style="margin:5px 0 0; font-size:13px; color:#666;">Thank
+                                    you for shopping with {{company.name}}.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center" style="padding:20px;">
+                                <p
+                                    style="margin:0; font-size:14px; color:#111; font-weight:bold;">Dear
+                                    {{customer.name}},</p>
+                                <p
+                                    style="margin:8px 0; font-size:13px; color:#444;">
+                                    Your order has been successfully placed. We
+                                    will confirm and ship your order within 72
+                                    hours of receiving it.
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:20px;">
+                                <table width="100%" cellpadding="0"
+                                    cellspacing="0">
+                                    <tr>
+                                        <td width="33%" valign="top"
+                                            style="font-size:13px;">
+                                            <strong>BILLING
+                                                ADDRESS</strong><br />
+                                            {{billing.name}}<br />
+                                            {{billing.address}}<br />
+                                            {{billing.city}}, {{billing.state}}
+                                            - {{billing.pincode}}<br />
+                                            {{billing.mobile_no}}
+                                        </td>
+                                        <td width="33%" valign="top"
+                                            style="font-size:13px;">
+                                            <strong>DELIVERY
+                                                ADDRESS</strong><br />
+                                            {{shipping.name}}<br />
+                                            {{shipping.address}}<br />
+                                            {{shipping.city}},
+                                            {{shipping.state}} -
+                                            {{shipping.pincode}}<br />
+                                            {{shipping.mobile_no}}
+                                        </td>
+                                        <td width="33%" valign="top"
+                                            style="font-size:13px;">
+                                            <strong>PAYMENT
+                                                DETAILS</strong><br />
+                                            Method: {{payment.method}}<br />
+                                            Status: {{payment.status}}<br />
+                                            Transaction ID: {{payment.txn_id}}
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding:0 20px 10px;">
+                                <p
+                                    style="font-size:13px; margin:0; color:#666;">
+                                    <strong>Order Id:</strong>
+                                    {{order.id}} &nbsp; | &nbsp;
+                                    <strong>Date:</strong> {{order.date}}
+                                </p>
+                            </td>
+                        </tr>
+
+                        {{#each order.items}}
+                        <tr>
+                            <td
+                                style="padding:10px 20px; border-top:1px solid #eee;">
+                                <table width="100%" cellpadding="0"
+                                    cellspacing="0">
+                                    <tr>
+                                        <td width="80" valign="top">
+                                            <img src="{{this.image}}" width="70"
+                                                style="border:1px solid #ddd; border-radius:4px;" />
+                                        </td>
+                                        <td valign="top"
+                                            style="padding-left:10px;">
+                                            <p
+                                                style="margin:0; font-weight:bold;">{{this.name}}</p>
+                                            <p
+                                                style="margin:2px 0; font-size:12px; color:#666;">SKU:
+                                                {{this.sku}}</p>
+                                            <p
+                                                style="margin:0; color:#666; font-weight:bold;">{{this.price}}</p>
+                                        </td>
+                                        <td align="right" valign="top">
+                                            <p
+                                                style="margin:0; font-size:13px;">Qty:
+                                                {{this.qty}}</p>
+                                            <p
+                                                style="margin:0; font-size:13px;">Total:
+                                                {{this.total}}</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        {{/each}}
+
+                        <tr>
+                            <td
+                                style="padding:20px; border-top:1px solid #eee;">
+                                <table width="100%" cellpadding="5"
+                                    cellspacing="0" style="font-size:13px;">
+                                    <tr>
+                                        <td align="right"
+                                            width="80%">Subtotal:</td>
+                                        <td
+                                            align="right"><strong>{{summary.subtotal}}</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">Shipping:</td>
+                                        <td
+                                            align="right"><strong>{{summary.shipping}}</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">Tax:</td>
+                                        <td
+                                            align="right"><strong>{{summary.tax}}</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><strong>Grand
+                                                Total:</strong></td>
+                                        <td align="right"><strong
+                                                style="color:#666;">{{summary.total}}</strong></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"
+                                style="padding:20px; font-size:12px; color:#777; border-top:1px solid #eee;">
+                                © {{year}} {{company.name}}. All rights
+                                reserved.<br />
+                                This is an automated confirmation. Please do not
+                                reply to this email.
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
