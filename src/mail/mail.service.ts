@@ -71,8 +71,8 @@ export class MailService {
             // })
             // if (site?.metadata && typeof site.metadata === 'object' && !Array.isArray(site.metadata)) {
             //     const details = site.metadata as Record<string, unknown>;
-            const platformName = "Yumdut Shop";
-            const supportEmail = "yumdutshop@gmail.com"
+            const platformName = "OutfitHub";
+            const supportEmail = "outfithub@gmail.com"
             const currentYear = new Date().getFullYear();
             const subject = `Update on Your Seller Account Application on ${platformName}`
 
@@ -115,8 +115,8 @@ export class MailService {
             // })
             // if (site?.metadata && typeof site.metadata === 'object' && !Array.isArray(site.metadata)) {
             // const details = site.metadata as Record<string, unknown>;
-            const platformName = "Yumdut Shop";
-            const supportEmail = "yumdutshop@gmail.com"
+            const platformName = "OutfitHub";
+            const supportEmail = "outfithub@gmail.com"
             const currentYear = new Date().getFullYear();
             const today = new Date();
             const formatted = today.toLocaleDateString('en-GB', {
@@ -180,7 +180,7 @@ export class MailService {
                 context: {
                     company: {
                         logo: "",
-                        name: "Yumdut Shop"
+                        name: "OutfitHub"
                     },
                     customer: {
                         name: `${user?.first_name || user?.last_name
@@ -310,7 +310,7 @@ export class MailService {
                 context: {
                     company: {
                         logo: `${process.env.BASE_PATH!}/${process.env.IMAGE_PATH}/site/logo.png`,
-                        name: "Yumdut Shop"
+                        name: "OutfitHub"
                     },
                     customer: {
                         name: `${user?.first_name || user?.last_name
@@ -445,7 +445,7 @@ export class MailService {
                     issue: supportTicket?.body,
                     attachments: supportTicket?.attechments || [],
                     year: currentYear,
-                    company: "Yumdut"
+                    company: "OutfitHub"
                 },
                 attachments: supportTicket?.attechments.map((url, index) => ({
                     filename: `attachment-${index + 1}${url.substring(url.lastIndexOf('.'))}`,

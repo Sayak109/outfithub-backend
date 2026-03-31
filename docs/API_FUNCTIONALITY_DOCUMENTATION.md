@@ -1,4 +1,4 @@
-# YUMDUT Backend: API and Functionality Documentation
+# OutfitHub Backend: API and Functionality Documentation
 
 ## 1. Project Overview
 - Framework: NestJS 11 + TypeScript

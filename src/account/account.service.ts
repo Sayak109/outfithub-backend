@@ -900,7 +900,7 @@ export class AccountService {
           const html_content = `<p>Hello ${userData?.first_name} ${userData?.last_name},</p>
                 <p>Your data request has been approved. Please find your requested data attached in the text file.</p>
                 <p>Best regards,</p>
-                <p>Yumdut Shop</p>`;
+                <p>OutfitHub</p>`;
           const mailOptions = {
             to: userEmail,
             subject,
@@ -1097,7 +1097,7 @@ export class AccountService {
           const html_content = `<p>Hello ${userData?.first_name} ${userData?.last_name},</p>
                 <p>Your data request has been approved. Please find your requested data attached in the text file.</p>
                 <p>Best regards,</p>
-                <p>Yumdut Shop</p>`;
+                <p>OutfitHub</p>`;
           const mailOptions = {
             to: userEmail,
             subject,
@@ -1131,7 +1131,7 @@ export class AccountService {
         const subject = "Request Rejected";
         const html_content = `<p> We regret to inform you that your request has been declined by the admin. </p>
                 <p>Best regards,</p>
-                <p>Yumdut shop</p>`;
+                <p>OutfitHub</p>`;
         const mailOptions = {
           to: userEmail,
           subject,

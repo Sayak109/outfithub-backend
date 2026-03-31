@@ -10,11 +10,11 @@ export class SeedService {
     async seed() {
         const adminSettingCount = await this.prisma.adminSettings.count();
 
-        if(adminSettingCount > 0) {
+        if (adminSettingCount > 0) {
             console.log("Database already seeded.");
             return;
         }
-        
+
         //Approval Status
         await this.prisma.approvalStatus.createMany({
             data: [
@@ -186,7 +186,7 @@ export class SeedService {
             data: [
                 {
                     title: "Eligibility",
-                    desc: "You must be at least 18 years old and legally authorized to enter into binding contracts in your jurisdiction to register as a seller on the YumDut platform."
+                    desc: "You must be at least 18 years old and legally authorized to enter into binding contracts in your jurisdiction to register as a seller on the OutfitHub platform."
                 },
                 {
                     title: "Account Registration",
@@ -194,23 +194,23 @@ export class SeedService {
                 },
                 {
                     title: "Product Listings",
-                    desc: "All products you list must comply with YumDut’s content policies, applicable laws, and regulations. You are responsible for the accuracy of your product descriptions, images, and pricing."
+                    desc: "All products you list must comply with OutfitHub’s content policies, applicable laws, and regulations. You are responsible for the accuracy of your product descriptions, images, and pricing."
                 },
                 {
                     title: "Pricing & Fees",
-                    desc: "You agree to YumDut’s seller fees, commission structure, and payment terms as published on the seller dashboard. Fees may be updated by YumDut with 30 days’ notice."
+                    desc: "You agree to OutfitHub’s seller fees, commission structure, and payment terms as published on the seller dashboard. Fees may be updated by OutfitHub with 30 days’ notice."
                 },
                 {
                     title: "Order Fulfillment",
-                    desc: "You must ship orders within the timeframes you commit to, provide valid tracking information, and handle returns and refunds in accordance with YumDut’s policies."
+                    desc: "You must ship orders within the timeframes you commit to, provide valid tracking information, and handle returns and refunds in accordance with OutfitHub’s policies."
                 },
                 {
                     title: "Intellectual Property",
-                    desc: "You represent and warrant that you own or have the necessary rights to all content and materials you upload. You grant YumDut a worldwide, royalty-free license to display that content on the platform."
+                    desc: "You represent and warrant that you own or have the necessary rights to all content and materials you upload. You grant OutfitHub a worldwide, royalty-free license to display that content on the platform."
                 },
                 {
                     title: "Termination",
-                    desc: "YumDut may suspend or terminate your seller account at any time for breach of these terms or for any conduct that YumDut deems harmful to the platform or its users."
+                    desc: "OutfitHub may suspend or terminate your seller account at any time for breach of these terms or for any conduct that OutfitHub deems harmful to the platform or its users."
                 }
             ]
         })
